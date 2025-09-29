@@ -1,0 +1,5 @@
+C:\Users\Andrew\Desktop\phpswitch\src\PhpSwitcher\obj\Debug\net8.0\PhpSwitcher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrew\Desktop\phpswitch\src\PhpSwitcher\obj\Debug\net8.0\PhpSwitcher.AssemblyInfoInputs.cache
+C:\Users\Andrew\Desktop\phpswitch\src\PhpSwitcher\obj\Debug\net8.0\PhpSwitcher.AssemblyInfo.cs
+C:\Users\Andrew\Desktop\phpswitch\src\PhpSwitcher\obj\Debug\net8.0\PhpSwitcher.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\Desktop\phpswitch\src\PhpSwitcher\obj\Debug\net8.0\PhpSwitcher.sourcelink.json

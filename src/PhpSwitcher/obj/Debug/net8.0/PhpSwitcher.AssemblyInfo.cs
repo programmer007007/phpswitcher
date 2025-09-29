@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhpSwitcher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6417bca29d7488d1f514cbf2ab53c3343b8f662")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abe1baec9a83d678de8a8070852f3d8616ad638e")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhpSwitcher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhpSwitcher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,10 +14,6 @@ internal static class Program
         ? StringComparer.OrdinalIgnoreCase
         : StringComparer.Ordinal;
 
-    private static readonly StringComparison PathComparison = OperatingSystem.IsWindows()
-        ? StringComparison.OrdinalIgnoreCase
-        : StringComparison.Ordinal;
-
     internal static int Main(string[] args)
     {
         if (!CommandLineOptions.TryParse(args, out CommandLineOptions? options, out string? error))
@@ -234,7 +230,7 @@ internal static class Program
                 string argumentRoot = rootFromArguments.Trim();
                 if (TryValidateDirectory(argumentRoot, out string? normalized))
                 {
-                    return new RootResolutionResult(normalized!, FromArguments: true, FromEnvironmentVariable: false);
+                    return new RootResolutionResult(normalized!, fromArguments: true, fromEnvironmentVariable: false);
                 }
 
                 throw new DirectoryNotFoundException($"The directory '{argumentRoot}' does not exist.");
@@ -250,7 +246,7 @@ internal static class Program
 
                 if (TryValidateDirectory(candidate, out string? normalized))
                 {
-                    return new RootResolutionResult(normalized!, FromArguments: false, FromEnvironmentVariable: true);
+                    return new RootResolutionResult(normalized!, fromArguments: false, fromEnvironmentVariable: true);
                 }
 
                 Console.ForegroundColor = ConsoleColor.Yellow;
@@ -290,7 +286,7 @@ internal static class Program
                 string sanitized = input.Trim('\"');
                 if (TryValidateDirectory(sanitized, out string? normalized))
                 {
-                    return new RootResolutionResult(normalized!, FromArguments: false, FromEnvironmentVariable: false);
+                    return new RootResolutionResult(normalized!, fromArguments: false, fromEnvironmentVariable: false);
                 }
 
                 Console.ForegroundColor = ConsoleColor.Yellow;
@@ -446,7 +442,7 @@ internal static class Program
                 return false;
             }
 
-            if (!normalizedPath.StartsWith(normalizedRoot, PathComparison))
+            if (!normalizedPath.StartsWith(normalizedRoot, PathComparer))
             {
                 return false;
             }
@@ -467,7 +463,7 @@ internal static class Program
                 normalizedLeft is null ||
                 normalizedRight is null)
             {
-                return PathComparer.Equals(left, right);
+                return string.Equals(left, right, PathComparer);
             }
 
             return PathComparer.Equals(normalizedLeft, normalizedRight);
