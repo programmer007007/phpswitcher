@@ -1,0 +1,15 @@
+C:\Users\Andrew\Desktop\phpswitch\src\PhpSwitcher\bin\Debug\net8.0\PhpSwitcher.exe
+C:\Users\Andrew\Desktop\phpswitch\src\PhpSwitcher\bin\Debug\net8.0\PhpSwitcher.deps.json
+C:\Users\Andrew\Desktop\phpswitch\src\PhpSwitcher\bin\Debug\net8.0\PhpSwitcher.runtimeconfig.json
+C:\Users\Andrew\Desktop\phpswitch\src\PhpSwitcher\bin\Debug\net8.0\PhpSwitcher.dll
+C:\Users\Andrew\Desktop\phpswitch\src\PhpSwitcher\bin\Debug\net8.0\PhpSwitcher.pdb
+C:\Users\Andrew\Desktop\phpswitch\src\PhpSwitcher\obj\Debug\net8.0\PhpSwitcher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrew\Desktop\phpswitch\src\PhpSwitcher\obj\Debug\net8.0\PhpSwitcher.AssemblyInfoInputs.cache
+C:\Users\Andrew\Desktop\phpswitch\src\PhpSwitcher\obj\Debug\net8.0\PhpSwitcher.AssemblyInfo.cs
+C:\Users\Andrew\Desktop\phpswitch\src\PhpSwitcher\obj\Debug\net8.0\PhpSwitcher.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\Desktop\phpswitch\src\PhpSwitcher\obj\Debug\net8.0\PhpSwitcher.sourcelink.json
+C:\Users\Andrew\Desktop\phpswitch\src\PhpSwitcher\obj\Debug\net8.0\PhpSwitcher.dll
+C:\Users\Andrew\Desktop\phpswitch\src\PhpSwitcher\obj\Debug\net8.0\refint\PhpSwitcher.dll
+C:\Users\Andrew\Desktop\phpswitch\src\PhpSwitcher\obj\Debug\net8.0\PhpSwitcher.pdb
+C:\Users\Andrew\Desktop\phpswitch\src\PhpSwitcher\obj\Debug\net8.0\PhpSwitcher.genruntimeconfig.cache
+C:\Users\Andrew\Desktop\phpswitch\src\PhpSwitcher\obj\Debug\net8.0\ref\PhpSwitcher.dll
